@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Show Más</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #5737c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        h2 {
+            color: #435ec0;
+        }
+
+        .character-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .character {
+            width: 200px;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        h1{
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #5737c9;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Un Show Más</h1>
+        <img src="imagenes/regularshow.jpg" style="width: 150px; height: 115px;">
+    </header>
+
+    <div class="container">
+        <h2>Acerca del Programa</h2>
+        <p><strong>Tipo de programa:</strong> Comedia de animación</p>
+        <p><strong>Sinopsis:</strong> "Un Show Más" sigue las desventuras de dos amigos, Mordecai y Rigby, que trabajan en un parque y pasan sus días enfrentando situaciones absurdas y sobrenaturales. A lo largo de los episodios, se meten en problemas que suelen tener soluciones inesperadas y cómicas.</p>
+
+        <h2>Personajes Principales</h2>
+        <div class="character-list">
+            <div class="character">
+                <img src="imagenes/mordecai.png" alt="Mordecai">
+                <h3>Mordecai</h3>
+                <p>Es un pájaro azul que es amigo de Rigby. Es más maduro, pero aun así termina en problemas con frecuencia.</p>
+            </div>
+            <div class="character">
+                <img src="imagenes/rigby.png" alt="Rigby">
+                <h3>Rigby</h3>
+                <p>Un mapache travieso y perezoso. Suele ser el que inicia la mayoría de los problemas que enfrentan.</p>
+            </div>
+            <div class="character">
+                <img src="imagenes/papaleta.png" alt="Pops">
+                <h3>Papaleta</h3>
+                <p>Es el jefe de Mordecai y Rigby. Tiene una personalidad peculiar y es muy amable.</p>
+            </div>
+            <div class="character">
+                <img src="imagenes/benson.png" alt="Benson">
+                <h3>Benson</h3>
+                <p>Es el encargado del parque y siempre está enfadado con Mordecai y Rigby por su falta de responsabilidad.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 - Información sobre "Un Show Más"</p>
+    </footer>
+</body>
+</html>
